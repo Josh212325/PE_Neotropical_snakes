@@ -31,7 +31,7 @@ basedata <- paste0("/Users/josue/Dropbox/1Doutorado/Chapter_2/biodiverse_pipelin
 
 rand_name <- paste0("rand")
 
-iterations <- 99
+iterations <- 999
 
 args <- paste0("function=rand_structured max_iters=999")
 #
@@ -72,7 +72,7 @@ foreach(i = 1:99) %dopar% {
   
   basedata <- paste0("/Users/josue/Dropbox/1Doutorado/Chapter_2/biodiverse_pipeline-master/bdssepareted/basedata/",n[i])
   rand_name <- paste0("rand")
-  iterations <- 99
+  iterations <- 999
   args <- paste0("function=rand_structured max_iters=999")
   ###### do not edit below #########
   cmd <- paste("perl ", biodiverse_install_folder, "bin/run_randomisation.pl", sep="")
