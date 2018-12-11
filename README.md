@@ -1,2 +1,2 @@
 # PE_Neotropical_snakes
-Includes scripts for Azevedo et al., PE paper
+Includes scripts for PE paper
